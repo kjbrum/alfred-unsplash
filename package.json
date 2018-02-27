@@ -1,0 +1,45 @@
+{
+  "name": "alfred-unsplash",
+  "version": "1.0.0",
+  "description": "Alfred 3 workflow for interacting with Unsplash.",
+  "main": "index.js",
+  "author": {
+    "name": "Kyle Brumm",
+    "email": "kjbrumm@gmail.com",
+    "url": "http://kylebrumm.com"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjbrum/alfred-unsplash.git"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfred-workflow",
+    "alfred3-workflow",
+    "unsplash",
+    "photos",
+    "images",
+    "alfy"
+  ],
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjbrum/alfred-unsplash/issues"
+  },
+  "homepage": "https://github.com/kjbrum/alfred-unsplash#readme",
+  "dependencies": {
+    "alfy": "^0.7.0",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "unsplash-js": "^4.8.0"
+  }
+}
