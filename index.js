@@ -10,8 +10,8 @@ const toJson = require('unsplash-js').toJson;
 const photos = [];
 
 const unsplash = new Unsplash({
-    applicationId: "42ccba9c5c6a8a89f072e704ba38b8a607e4976c3c186126527ea549ae869c7d",
-    secret: "a72e754936ef95b13b2edefa90fcdba6ce119f2e61e8673de21244e09c6d8791",
+    applicationId: process.env.unsplashApplicationId,
+    secret: process.env.unsplashSecret,
     callbackUrl: "urn:ietf:wg:oauth:2.0:oob",
     // bearerToken: "xxxxx"
 });

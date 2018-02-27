@@ -154,6 +154,20 @@
 			<integer>300</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>unsplashApplicationId</key>
+		<string></string>
+		<key>unsplashSecret</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>unsplashApplicationId</string>
+		<string>unsplashSecret</string>
+	</array>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string>http://kylebrumm.com</string>
 </dict>
